@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>☞𝙳𝙰𝙿𝙰𝚃𝙺𝙰𝙽 𝙻𝙸𝙽𝙺 𝙰𝙺𝚄𝙽 𝙵𝚁𝙴𝙴 𝙵𝙸𝚁𝙴☜</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffcc;
+      background: url('https://img1.pixhost.to/images/6011/603947490_escanor-assistant.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      transition: background 1s ease;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff;
+      animation: pulse 2s infinite;
+      z-index: 2;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff;
+      }
+      50% {
+        text-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffff;
+      }
+    }
+
+    .button {
+      margin-top: 40px;
+      padding: 15px 40px;
+      background: #00ffcc;
+      color: #000;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+      box-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffff;
+      z-index: 2;
+    }
+
+    .button:active {
+      animation: shake 0.4s, flash 0.3s;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0px); }
+      20% { transform: translateX(-5px); }
+      40% { transform: translateX(5px); }
+      60% { transform: translateX(-5px); }
+      80% { transform: translateX(5px); }
+      100% { transform: translateX(0px); }
+    }
+
+    @keyframes flash {
+      0% { background-color: #ff0000; }
+      100% { background-color: #00ffcc; }
+    }
+
+    .glow-text {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #ffffffb3;
+      text-align: center;
+      max-width: 600px;
+      line-height: 1.5;
+      text-shadow: 0 0 10px black;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 15px;
+      border-radius: 10px;
+      z-index: 2;
+    }
+
+    /* Layar hacker */
+    .hacker-screen {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://img1.pixhost.to/images/6011/603943294_escanor-assistant.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #0f0;
+      z-index: 10;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .hacker-text {
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+      margin-bottom: 20px;
+    }
+
+    .warning-text {
+      font-size: 1.3rem;
+      color: #ff0000;
+      text-shadow: 0 0 10px #ff0000;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    #overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="overlay"></div>
+
+  <h1>𝐀𝐊𝐔𝐍 𝐒𝐔𝐋𝐓𝐀𝐍 𝐑𝐀𝐍𝐃𝐎𝐌 ADOLF JASTEB (𝐅𝐑𝐄𝐄)😈</h1>
+  <div class="glow-text">
+    𝙋𝘼𝙎𝙏𝙄𝙆𝘼𝙉 𝘼𝙆𝙐𝙉 𝘿𝙄𝙂𝙐𝙉𝘼𝙆𝘼𝙉 𝘿𝙀𝙉𝙂𝘼𝙉 𝘽𝙄𝙅𝘼𝙆, DATA ERROR? GRATIS BOS!! ,SIAPA CEPAT DIA DAPAT😈😈!!
+  </div>
+
+  <button class="button" onclick="triggerHack()">༼𝑫𝑨𝑷𝑨𝑻𝑲𝑨𝑵 𝑫𝑨𝑻𝑨𝑵𝒀𝑨༽</button>
+
+  <audio id="screamSound">
+    <source src="https://files.catbox.moe/jmut9t.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Layar hacker -->
+  <div id="hackerScreen" class="hacker-screen">
+    <div class="hacker-text">𝖍𝖆𝖈𝖐𝖊𝖗 𝖙𝖊𝖑𝖆𝖍 𝖒𝖊𝖓𝖞𝖆𝖉𝖆𝖕 𝖍𝖕 𝖐𝖆𝖒𝖚, 𝔰𝔢𝔪𝔲𝔞 𝔡𝔞𝔱𝔞𝔪𝔲 𝔱𝔢𝔩𝔞𝔥 𝔰𝔞𝔶𝔞 𝔡𝔦𝔠𝔲𝔯𝔦😈</div>
+    <div class="warning-text">
+      𝗛𝗔𝗡𝗗𝗣𝗛𝗢𝗡𝗘 𝗜𝗡𝗜 𝗔𝗞𝗔𝗡 𝗦𝗘𝗚𝗘𝗥𝗔 𝗗𝗜𝗕𝗢𝗕𝗢𝗟, 𝗦𝗘𝗚𝗘𝗥𝗔 𝗔𝗠𝗔𝗡𝗞𝗔𝗡 𝗛𝗣 𝗠𝗨 𝗔𝗧𝗔𝗨 𝗛𝗣𝗠𝗨 𝗔𝗞𝗔𝗡 𝗠𝗘𝗟𝗗𝗔𝗞 𝗗𝗜𝗧𝗔𝗡𝗚𝗔𝗡𝗠𝗨😈😈<br>
+      𝕐𝔸ℍ𝔸ℍ𝔸ℍ𝔸ℍ𝔸ℍℍ𝔸ℍ𝔸ℍ𝔸 ℍℙ𝕄𝕌 𝔸𝕂𝔸ℕ 𝕊𝔼𝔾𝔼ℝ𝔸 RESTAR DALAM 5 DETIK 😈😈<br>
+      <strong>ՏᏆՏͲᎬᎷ ᎻᎪᏙᏦ ͲᎬᏞᎪᎻ ᎷᎪՏႮᏦ ᏦᎬ ՏᎬᏞႮᎡႮᎻ ՏᏆՏͲᎬᎷ ᎻᎪΝᎠᏢᎻϴΝᎬ . . .</strong>
+    </div>
+  </div>
+
+  <script>
+    function triggerHack() {
+      const sound = document.getElementById('screamSound');
+      const overlay = document.getElementById('overlay');
+      const hackerScreen = document.getElementById('hackerScreen');
+
+      sound.currentTime = 0;
+      sound.play();
+
+      overlay.style.opacity = 0.6;
+      setTimeout(() => {
+        overlay.style.opacity = 0;
+        hackerScreen.style.display = "flex";
+      }, 500);
+    }
+  </script>
+
+</body>
+</html>
